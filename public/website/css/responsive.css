@@ -1,0 +1,448 @@
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+
+    .hamburger span,
+    .is-closed span {
+        background-color: #fff;
+    }
+
+    #header {
+        position: fixed;
+        bottom: 0 !important;
+        top: auto !important;
+        background: var(--main-color) !important;
+    }
+
+    #header .container {
+        justify-content: center;
+    }
+
+    .logo-mobail {
+        display: block
+    }
+
+    .logo-web {
+        display: none;
+    }
+
+    .logo-site img {
+        max-width: 160px;
+    }
+
+    .main_menu {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .main_menu ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main_menu li {
+        margin-bottom: 15px;
+    }
+
+    .main_menu:before {
+        left: -250px;
+    }
+
+    .is-closed {
+        position: fixed;
+        top: 30px;
+        right: 20px;
+    }
+
+    .thumb-menu {
+        display: none
+    }
+
+    .contact-chat {
+        bottom: 90px;
+        left: 15px;
+        right: auto;
+    }
+
+    .contact-quote {
+        display: none;
+    }
+
+    .section_home {
+        padding: 160px 0 60px;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section_home:before {
+        width: 510px;
+        height: 550px;
+        top: -290px;
+        left: -130px;
+    }
+
+    .home_txt {
+        padding: 10px;
+        width: 100%;
+        z-index: 9;
+    }
+
+    .home_txt h1 {
+        text-align: center;
+        font-size: 52px
+    }
+
+    .thumb-home {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+    }
+
+    .logo-mobail-head {
+        display: block;
+    }
+
+    .section_we_are {
+        padding: 20px 0;
+        position: relative;
+    }
+
+    .section_we_are:before {
+        width: 750px;
+        height: 440px;
+        right: -260px;
+        top: -20px;
+    }
+
+    .cont-we-are {
+        padding: 90px 0 60px;
+    }
+
+    .cont-we-are:before {
+        transform: rotate(5deg);
+    }
+
+    .cont-we-are .col-lg-6:first-child {
+        padding-left: 60px;
+    }
+
+    .thumb-we {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+
+    .thumb-we img {
+        width: 100%;
+    }
+
+    .sec_head p {
+        font-size: 19px;
+    }
+
+    .section_what_do:before {
+        top: -170px;
+    }
+
+    .section_what_do {
+        padding: 50px 0;
+    }
+
+    .section_what_do .sec_head {
+        margin-bottom: 40px;
+    }
+
+    .section_what_do .coloum4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .owl-item:not(.active) + .owl-item.active {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .owl-item:not(.active) + .owl-item.active .item-do {
+        transform: scale(1);
+    }
+
+    .coloum4 .owl-stage-outer {
+        padding: 0;
+        height: auto;
+    }
+
+    .coloum4 .owl-nav {
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .item-do {
+        height: auto;
+    }
+
+    .item-do .txt-do {
+        width: 100%;
+    }
+
+    .item-do .txt-do p {
+        font-size: 23px
+    }
+
+    .ds-partners .item-partners {
+        width: 33.3334%;
+    }
+
+    .cont-partners .sec_head {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .section_partners:before,
+    .section_partners:after {
+        display: none;
+    }
+
+    .cont-partners .sec_head span {
+        display: block;
+    }
+
+    .ds-partners .item-partners figure img {
+        max-width: 80px;
+    }
+
+    .section_clients .sec_head {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .section_clients .row {
+        flex-direction: column-reverse;
+    }
+
+    .section_clients .sec_head span {
+        font-size: 14px;
+    }
+
+    .ds-clients .item-clients {
+        width: 33.3334%;
+    }
+
+    .section_clients:before {
+        display: none;
+    }
+
+    .ds-clients .item-clients:nth-child(1) figure,
+    .ds-clients .item-clients:nth-child(6) figure,
+    .ds-clients .item-clients:nth-child(11) figure {
+        border-left: 1px solid rgb(112 112 112 / 20%);
+    }
+
+    .ds-clients .item-clients:nth-child(11) figure,
+    .ds-clients .item-clients:nth-child(12) figure,
+    .ds-clients .item-clients:nth-child(13) figure,
+    .ds-clients .item-clients:nth-child(14) figure,
+    .ds-clients .item-clients:nth-child(15) figure {
+        border-bottom: 1px solid rgb(112 112 112 / 20%);
+    }
+
+    .section_location .sec_head h2 {
+        margin-bottom: 0;
+    }
+
+    .section_location .sec_head span {
+        display: block;
+    }
+
+    .section_location:before {
+        display: none;
+    }
+
+    .thumb-location {
+        margin-bottom: 20px;
+    }
+
+    .thumb-location,
+    .cont-location {
+        height: auto;
+    }
+
+    .section_quote {
+        clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+    }
+
+    .form-sty .d-flex .form-group:first-child {
+        width: 30%;
+    }
+
+    .thumb-quote {
+        position: relative;
+        bottom: -30px;
+        width: 100%;
+    }
+
+    .logo-ft {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .copyRight {
+        margin-bottom: 20px;
+    }
+
+    .list-social {
+        text-align: center;
+    }
+
+    .main-wrapper {
+        padding-bottom: 58px;
+    }
+
+    .list-social li a {
+        font-size: 25px;
+    }
+
+    .section_head_page {
+        padding: 120px 0 0;
+    }
+
+    .section_head_page:after {
+        height: 80%;
+    }
+
+    .section_content_chairman .row {
+        flex-direction: column-reverse;
+    }
+
+    .txt-chairm {
+        margin-bottom: 40px
+    }
+
+    .section_head_page .home_txt {
+        margin-top: 70px;
+    }
+
+    .section_content_team .sec_head {
+        margin-bottom: 70px;
+    }
+
+    .section_head_page .home_txt h1 {
+        font-size: 52px;
+    }
+
+    .thumb-abt {
+        margin-bottom: 30px;
+    }
+
+    .item-team {
+        padding: 0 35px;
+    }
+
+    .item-team figure {
+        height: auto;
+    }
+
+    .txt-team span,
+    .txt-team h5 {
+        font-size: 18px;
+    }
+
+    .thumb-services-page {
+        display: none;
+    }
+
+    .head-services {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .head-services:after {
+        height: 100%
+    }
+
+    .head_team_txt h1 {
+        font-size: 40px;
+    }
+    .item-serv {
+        flex-direction: column;
+    }
+    .item-serv figure,
+    .txt-serv {
+        width: 100%;
+    }
+    .item-serv figure img {
+        width: 100%;
+    }
+    .txt-serv > div:before {
+        display: none;
+    }
+    .txt-serv {
+        padding: 0;
+    }
+    .txt-serv .btn-site {
+        margin: 0;
+    }
+    
+    .item-work {
+        margin-bottom: 25px;
+    }
+    .select-pj {
+        display: block;
+    }
+    .list-work {
+        display: none;
+    }
+    .item-work figure,
+    .item-work figure img {
+        width: 100%;
+    }
+    .txt-work {
+        position: relative;
+        background-color: transparent;
+        padding: 20px;
+        transform: unset !important;
+    }
+    .txt-work h6 {
+        color: #19191B;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+    .txt-work span {
+        color: #19191B;
+        font-size: 16px
+    }
+    .head_projects {
+        padding: 120px 0 70px;
+    }
+    .head_projects:after {
+        height: 85%;
+    }
+    .head_projects_details {
+        height: 240px;
+    }
+    .hd-proj {
+        padding: 40px 0;
+    }
+    .hd-proj h1 {
+        font-size: 30px;
+    }
+    .hd-proj strong {
+        font-size: 40px;
+    }
+    .txt-hd-serv h1 {
+        font-size: 25px !important;
+        text-align: start !important;
+    }
+    .section_other_services .owl-item:not(.active) + .owl-item.active {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    
+    
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 500px) {}
